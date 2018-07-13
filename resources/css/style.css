@@ -11,6 +11,7 @@ body {
 
 a {
   color: seashell;
+  text-decoration: underline;
 }
 
 nav {
@@ -127,4 +128,15 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* Footer */
+
+footer .contact {
+  height: 200px;
+}
+
+footer .copyright {
+  padding-left: 20px;
+  text-align: left;
 }
